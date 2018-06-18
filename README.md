@@ -10,3 +10,6 @@
 
 ### How do I make the text justified instead of ragged right?
 Remove or comment out the line `\RaggedRight` from the .cls file.
+
+## Acknowledgement
+This template is created based on Dissertate (https://github.com/suchow/Dissertate).
