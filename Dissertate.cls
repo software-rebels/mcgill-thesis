@@ -222,13 +222,16 @@
 	\textsc{by\\
 	\theauthor\\
   \vspace{12pt}
-  A thesis submitted to\\ The Department of \@department\\
-	\vspace{12pt}
+  Department of \@department\\
+  \@university\\
+  \vspace{12pt}
+  \@degreemonth\ \@degreeyear \\
+  \vspace{12pt}
+  A thesis submitted to \@university\\ 
 	in partial fulfillment of the requirements\\
 	of the degree of\\ \@degree\\
 	\vspace{12pt}
-	\@university\\ \@universitycity, \@universitystate\\
-	\@degreemonth\ \@degreeyear \\
+	% \@university\\ \@universitycity, \@universitystate\\
   \vspace{20pt}
   Copyright \copyright\ \theauthor, \@degreeyear}
 	\end{center} \vspace*{\fill}
@@ -275,7 +278,7 @@
   \begin{center}
   % \Large \textcolor{SchoolColor}{\@title} \normalsize \\
   % \vspace*{20pt}
-  \Large{\scshape Abstrait} \\ \rm
+  \Large{\scshape R\'esum\'e} \\ \rm
   \end{center}
   {\doublespacing \input{frontmatter/abstractfr} \par}
   \vspace*{\fill}
